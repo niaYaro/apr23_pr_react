@@ -20,7 +20,6 @@ export const App = () => {
   const [selectedUser, setSelectedUser] = useState('');
   const [selectedCategory, setSelectedCategory] = useState([]);
   const [requestedProduct, setRequestedProduct] = useState('');
-  // const [isFiltered, setIsFiltered] = useState(false);
 
   const visibleProducts = products.filter((product) => {
     if (selectedUser && requestedProduct) {
